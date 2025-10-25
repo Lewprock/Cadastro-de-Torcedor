@@ -89,3 +89,13 @@ button:hover {
   opacity: 0.8; /* deixa o gif mais sutil */
   pointer-events: none; /* evita que o gif interfira em cliques */
 }
+
+a {
+    display: block;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    color: #f0f0f0;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
