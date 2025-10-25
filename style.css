@@ -64,7 +64,7 @@ select {
 }
 
 /* Botão de envio*/
-button {
+.btncadastrar{
     margin-top: 30px;
     padding: 12px 20px;
     background-color: #ffd700;
@@ -76,8 +76,24 @@ button {
     width: 100%;
 }
 
-button:hover {
+.btncadastrar:hover {
     background-color: #ffa500;
+}
+
+.btnreset{
+    margin-top: 30px;
+    padding: 12px 20px;
+    background-color: #00bf73;
+    color: #000;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+}
+
+.btnreset:hover {
+    background-color: #00af50;
 }
 
 .futebol-gif {
