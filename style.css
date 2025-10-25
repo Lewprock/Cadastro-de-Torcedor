@@ -1,0 +1,91 @@
+/* Reset básico */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Fundo e cor*/
+body {
+  background: linear-gradient(to right, #004d7a, #008793, #00bf72);
+  color: #fff;
+  padding: 40px;
+}
+
+/* Container do formulário */
+div {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 600px;
+  margin: auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Títulos */
+h1, h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #ffd700;
+}
+
+/* Labels e inputs */
+label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="date"],
+select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 6px;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+/* Checkboxes */
+input[type="checkbox"] {
+  margin-right: 10px;
+  transform: scale(1.2);
+}
+
+
+select {
+  background-color: #f0f0f0;
+}
+
+/* Botão de envio*/
+button {
+  margin-top: 30px;
+  padding: 12px 20px;
+  background-color: #ffd700;
+  color: #000;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #ffa500;
+}
+
+.futebol-gif {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 150px; /* ajuste conforme o tamanho do gif */
+  height: auto;
+  z-index: -1; /* garante que fique atrás do conteúdo */
+  opacity: 0.8; /* deixa o gif mais sutil */
+  pointer-events: none; /* evita que o gif interfira em cliques */
+}
